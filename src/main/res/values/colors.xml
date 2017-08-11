@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dot_colors">
+        <item>#581845</item>
+        <item>#03A9F4</item>
+        <item>#900C3F</item>
+        <item>#E65100</item>
+        <item>#FFBB00</item>
+        <item>#C70039</item>
+        <item>#66f659</item>
+        <item>#d059f6</item>
+        <item>#DAF7A6</item>
+    </array>
+</resources>
