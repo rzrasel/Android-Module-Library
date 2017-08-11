@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\xampp\\htdocs\\BDLiveTelevision\\librarycore\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\xampp\\htdocs\\MathematicsPlayOne\\librarycore\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -4039,7 +4039,7 @@
                     "endOffset": 34581
                 },
                 "from": {
-                    "file": "C:\\xampp\\htdocs\\BDLiveTelevision\\librarycore\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\xampp\\htdocs\\MathematicsPlayOne\\librarycore\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,

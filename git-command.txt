@@ -22,3 +22,7 @@ git fetch && git checkout And-Library-Core-V-1.0.0
 git add .
 git commit -m "Add Readme & Git Commit File"
 git push --all
+
+
+git remote show -n origin
+git branch
