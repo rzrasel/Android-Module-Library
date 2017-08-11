@@ -1,2 +1,2 @@
-# Android-Module-Library
-Android Module Library
+#  And Library Core V-1.0.0 
+And Library Core V-1.0.0
