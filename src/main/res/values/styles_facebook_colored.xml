@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME|――――|-->
+    <style name="ThemeDialogFbColor" parent="@android:style/Theme.Dialog">
+        <item name="AttrsDialogRoundStroke">@color/colorFbColorDialogRoundStroke</item>
+        <item name="AttrsDialogRoundShapeBg">@color/colorFbColorDialogRoundShapeBg</item>
+        <item name="AttrsDialogHeaderBg">@color/colorFbColorDialogBgHeader</item>
+        <item name="AttrsDialogHeaderBelowLine">@style/StyleDialogFbColorHeaderBelowLine</item>
+        <item name="AttrsDialogCtrlBtnTopLine">@style/StyleDialogFbColorCtrlBtnTopLine</item>
+        <item name="AttrsDialogTitle">@style/StyleDialogFbColorTitle</item>
+        <item name="AttrsDialogTextBodyMessage">@style/StyleDialogFbColorTextBodyMessage</item>
+        <item name="AttrsDialogBgBodyMessage">@style/StyleDialogFbColorBgBodyMessage</item>
+        <item name="AttrsDialogBgControllerPanel">@color/colorFbColorDialogBgControllerPanel</item>
+        <item name="AttrsDialogBtnConfirm">@style/StyleDialogFbColorBtnConfirm</item>
+        <item name="AttrsDialogBtnNegative">@style/StyleDialogFbColorBtnNegative</item>
+        <item name="AttrsDialogBtnPositive">@style/StyleDialogFbColorBtnPositive</item>
+    </style>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME LINE BELOW HEADER|――――|-->
+    <style name="StyleDialogFbColorHeaderBelowLine">
+        <item name="android:background">@color/colorFbColorHeaderBelowLine</item>
+    </style>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME CONTROLLER BUTTON TOP LINE|――――|-->
+    <style name="StyleDialogFbColorCtrlBtnTopLine">
+        <item name="android:background">@color/colorFbColorCtrlBtnTopLine</item>
+    </style>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME HEADER|――――|-->
+    <!--<style name="StyleDialogFbColorHeader">
+        <item name="android:background">@drawable/round_dialog_top_two_fb_color</item>
+    </style>-->
+    <!--|――――|――――|ORANGE THEME DIALOG TITLE|――――|-->
+    <style name="StyleDialogFbColorTitle">
+        <item name="android:textColor">@color/colorFbColorDialogTitle</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/dialog_text_size_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME TEXT BODY MESSAGE|――――|-->
+    <style name="StyleDialogFbColorTextBodyMessage">
+        <item name="android:textColor">@color/colorFbColorDialogTextBodyMessage</item>
+        <!--<item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>-->
+        <item name="android:textSize">@dimen/dialog_text_size_message</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME BACKGROUND COLOR BODY MESSAGE|――――|-->
+    <style name="StyleDialogFbColorBgBodyMessage">
+        <item name="android:background">@color/colorFbColorDialogBgBodyMessage</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME BACKGROUND COLOR CONTROLLER PANEL|――――|-->
+    <!--<style name="StyleDialogFbColorBgControllerPanel">
+        <item name="android:background">@color/colorFbColorDialogBgControllerPanel</item>
+    </style>-->
+    <!--|――――|――――|ORANGE THEME CONFIRM BUTTON|――――|-->
+    <style name="StyleDialogFbColorBtnConfirm">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@color/colorFbColorBtnTextConfirm</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/colorFbColorBtnBgConfirm</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME NEGATIVE BUTTON|――――|-->
+    <style name="StyleDialogFbColorBtnNegative">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@color/colorFbColorBtnTextNegative</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/colorFbColorBtnBgNegative</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME POSITIVE Positive BUTTON|――――|-->
+    <style name="StyleDialogFbColorBtnPositive">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@color/colorFbColorBtnTextPositive</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/colorFbColorBtnBgPositive</item>
+    </style>
+</resources>

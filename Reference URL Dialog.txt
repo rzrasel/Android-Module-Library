@@ -1,0 +1,27 @@
+​Dialog
+​​
+https://stackoverflow.com/questions/13341560/how-to-create-a-custom-dialog-box-in-android
+​​
+https://stackoverflow.com/questions/23408756/create-a-general-class-for-custom-dialog-in-java-android
+https://stackoverflow.com/questions/1974887/customizing-dialog-by-extending-dialog-or-alertdialog
+http://www.coderzheaven.com/2013/02/13/extend-dialog-class-write-its-button-click-activity-interfaces-android/
+http://www.codexpedia.com/android/android-custom-dialog-example/
+http://about-android.blogspot.com/2010/02/create-custom-dialog.html
+​​
+https://github.com/droidbyme/DroidDialog
+https://github.com/michaelye/EasyDialog
+https://github.com/yarolegovich/LovelyDialog
+https://github.com/orhanobut/dialogplus
+https://github.com/jiang111/IndicatorDialog
+https://github.com/marcoscgdev/HeaderDialog/blob/master/headerdialog/src/main/java/com/marcoscg/headerdialog/HeaderDialog.java
+https://github.com/avast/android-styled-dialogs
+
+
+https://stackoverflow.com/questions/32697498/scroll-event-for-recyclerview-inside-scrollview-android
+http://www.nicholasmelnick.com/entries/104
+​
+//|――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――|
+//|――――|――――――――――――|DAILY REPORT HEADER TITLE SETUP|――――――――――――|
+<!--|――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――|-->
+<!--|――――|――――――――――――|DAILY BALANCE DATE AND SHOW BUTTON|-->
+https://github.com/marcoscgdev/HeaderDialog/blob/master/headerdialog/src/main/java/com/marcoscg/headerdialog/widgets/ContentTextViewJustified.java

@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|GREEN THEME|――――|-->
+    <!--<style name="ThemeDialogGreen" parent="@android:style/Theme.Dialog">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        &lt;!&ndash;<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>&ndash;&gt;
+        <item name="StyleDialogHeader">@style/DialogGreenHeader</item>
+        <item name="StyleDialogTitle">@style/DialogGreenTitle</item>
+    </style>-->
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|FACEBOOK COLOR THEME|――――|-->
+    <!--<style name="ThemeDialogFbColor" parent="@android:style/Theme.Dialog">
+        <item name="StyleDialogHeader">@style/DialogFbColorHeader</item>
+    </style>-->
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|GREEN THEME HEADER|――――|-->
+    <!--<style name="Test" parent="AppThemeGreen"></style>-->
+    <!--<style name="DialogGreenHeader">
+        <item name="android:background">@drawable/round_dialog_top_two_green</item>
+    </style>
+
+    <style name="DialogGreenTitle">
+        <item name="android:textColor">#3F51B5</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/dialog_text_size_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>-->
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|FACEBOOK COLOR THEME HEADER|――――|-->
+    <!--<style name="DialogFbColorHeader">
+        <item name="android:background">@drawable/round_dialog_top_two_fb_color</item>
+    </style>-->
+</resources><!--
+https://stackoverflow.com/questions/30487616/android-overriding-a-style-per-theme
+-->

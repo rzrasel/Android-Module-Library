@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Specifies a style resource to use for an indeterminate progress spinner. -->
+    <declare-styleable name="AttrsStyleableDialog">
+        <attr name="AttrsDialogRoundStroke" format="reference" />
+        <attr name="AttrsDialogRoundShapeBg" format="reference" />
+        <attr name="AttrsDialogHeaderBelowLine" format="reference" />
+        <attr name="AttrsDialogCtrlBtnTopLine" format="reference" />
+        <attr name="AttrsDialogHeaderBg" format="reference" />
+        <attr name="AttrsDialogTitle" format="reference" />
+        <attr name="AttrsDialogTextBodyMessage" format="reference" />
+        <attr name="AttrsDialogBgBodyMessage" format="reference" />
+        <attr name="AttrsDialogBgControllerPanel" format="reference" />
+        <attr name="AttrsDialogBtnConfirm" format="reference" />
+        <attr name="AttrsDialogBtnNegative" format="reference" />
+        <attr name="AttrsDialogBtnPositive" format="reference" />
+    </declare-styleable>
+</resources>

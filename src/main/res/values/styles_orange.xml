@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME|――――|-->
+    <style name="ThemeDialogOrange" parent="@android:style/Theme.Dialog">
+        <item name="AttrsDialogRoundStroke">@color/colorOrangeDialogRoundStroke</item>
+        <item name="AttrsDialogRoundShapeBg">@color/colorOrangeDialogRoundShapeBg</item>
+        <item name="AttrsDialogHeaderBg">@color/colorOrangeDialogBgHeader</item>
+        <item name="AttrsDialogHeaderBelowLine">@style/StyleDialogOrangeHeaderBelowLine</item>
+        <item name="AttrsDialogCtrlBtnTopLine">@style/StyleDialogOrangeCtrlBtnTopLine</item>
+        <item name="AttrsDialogTitle">@style/StyleDialogOrangeTitle</item>
+        <item name="AttrsDialogTextBodyMessage">@style/StyleDialogOrangeTextBodyMessage</item>
+        <item name="AttrsDialogBgBodyMessage">@style/StyleDialogOrangeBgBodyMessage</item>
+        <item name="AttrsDialogBgControllerPanel">@color/colorOrangeDialogBgControllerPanel</item>
+        <item name="AttrsDialogBtnConfirm">@style/StyleDialogOrangeBtnConfirm</item>
+        <item name="AttrsDialogBtnNegative">@style/StyleDialogOrangeBtnNegative</item>
+        <item name="AttrsDialogBtnPositive">@style/StyleDialogOrangeBtnPositive</item>
+    </style>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME LINE BELOW HEADER|――――|-->
+    <style name="StyleDialogOrangeHeaderBelowLine">
+        <item name="android:background">@color/colorOrangeHeaderBelowLine</item>
+    </style>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME CONTROLLER BUTTON TOP LINE|――――|-->
+    <style name="StyleDialogOrangeCtrlBtnTopLine">
+        <item name="android:background">@color/colorOrangeCtrlBtnTopLine</item>
+    </style>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME HEADER|――――|-->
+    <!--<style name="StyleDialogOrangeHeader">
+        <item name="android:background">@drawable/round_dialog_top_two_orange</item>
+    </style>-->
+    <!--|――――|――――|ORANGE THEME DIALOG TITLE|――――|-->
+    <style name="StyleDialogOrangeTitle">
+        <item name="android:textColor">@color/colorOrangeDialogTitle</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/dialog_text_size_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME TEXT BODY MESSAGE|――――|-->
+    <style name="StyleDialogOrangeTextBodyMessage">
+        <item name="android:textColor">@color/colorOrangeDialogTextBodyMessage</item>
+        <!--<item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>-->
+        <item name="android:textSize">@dimen/dialog_text_size_message</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME BACKGROUND COLOR BODY MESSAGE|――――|-->
+    <style name="StyleDialogOrangeBgBodyMessage">
+        <item name="android:background">@color/colorOrangeDialogBgBodyMessage</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME BACKGROUND COLOR CONTROLLER PANEL|――――|-->
+    <!--<style name="StyleDialogOrangeBgControllerPanel">
+        <item name="android:background">@color/colorOrangeDialogBgControllerPanel</item>
+    </style>-->
+    <!--|――――|――――|ORANGE THEME CONFIRM BUTTON|――――|-->
+    <style name="StyleDialogOrangeBtnConfirm">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@color/colorOrangeBtnTextConfirm</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/colorOrangeBtnBgConfirm</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME NEGATIVE BUTTON|――――|-->
+    <style name="StyleDialogOrangeBtnNegative">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@color/colorOrangeBtnTextNegative</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/colorOrangeBtnBgNegative</item>
+    </style>
+    <!--|――――|――――|ORANGE THEME POSITIVE Positive BUTTON|――――|-->
+    <style name="StyleDialogOrangeBtnPositive">
+        <item name="android:buttonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="android:textColor">@color/colorOrangeBtnTextPositive</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/colorOrangeBtnBgPositive</item>
+    </style>
+</resources>

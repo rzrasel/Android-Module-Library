@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|FACEBOOK COLOR THEME PROPERTY|――――|-->
+    <color name="colorFbColorDialogRoundStroke">#c5c7c9</color>
+    <color name="colorFbColorDialogRoundShapeBg">#ffffff</color>
+    <color name="colorFbColorDialogBgHeader">#f6f7f9</color>
+    <color name="colorFbColorHeaderBelowLine">#dddee0</color>
+    <color name="colorFbColorCtrlBtnTopLine">#dddee0</color>
+    <color name="colorFbColorDialogTitle">#4b4f56</color>
+    <color name="colorFbColorDialogTextBodyMessage">#1d2129</color>
+    <color name="colorFbColorDialogBgBodyMessage">#ffffff</color>
+    <color name="colorFbColorDialogBgControllerPanel">#ffffff</color>
+    <color name="colorFbColorBtnTextConfirm">#4b4f56</color>
+    <color name="colorFbColorBtnTextNegative">#4b4f56</color>
+    <color name="colorFbColorBtnTextPositive">#4b4f56</color>
+    <color name="colorFbColorBtnBgConfirm">#ffffff</color>
+    <color name="colorFbColorBtnBgNegative">#ffffff</color>
+    <color name="colorFbColorBtnBgPositive">#ffffff</color>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|ORANGE THEME PROPERTY|――――|-->
+    <color name="colorOrangeDialogRoundStroke">#00ffffff</color>
+    <color name="colorOrangeDialogRoundShapeBg">#ffffff</color>
+    <color name="colorOrangeDialogBgHeader">#ff5412</color>
+    <color name="colorOrangeHeaderBelowLine">#00ffffff</color>
+    <color name="colorOrangeCtrlBtnTopLine">#00ffffff</color>
+    <color name="colorOrangeDialogTitle">#ffffff</color>
+    <color name="colorOrangeDialogTextBodyMessage">#5d5d5d</color>
+    <color name="colorOrangeDialogBgBodyMessage">#ffffff</color>
+    <color name="colorOrangeDialogBgControllerPanel">#ffffff</color>
+    <color name="colorOrangeBtnTextConfirm">#ff5412</color>
+    <color name="colorOrangeBtnTextNegative">#ff5412</color>
+    <color name="colorOrangeBtnTextPositive">#ff5412</color>
+    <color name="colorOrangeBtnBgConfirm">#ffffff</color>
+    <color name="colorOrangeBtnBgNegative">#ffffff</color>
+    <color name="colorOrangeBtnBgPositive">#ffffff</color>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <!--|――――|――――|GREEN THEME PROPERTY|――――|-->
+    <color name="colorBlack">#000000</color>
+    <color name="colorOrange">#ff5412</color>
+    <color name="colorIndigo">#3f51B5</color>
+    <color name="colorDarkIndigo">#303f9f</color>
+    <!--|――――|――――――――――――――――――――――――――――――――――――|――――|-->
+    <color name="color1">#dfba69</color>
+    <color name="colorHalfBlack">#5d5d5d</color>
+    <color name="colorLightHalfBlack">#9d9d9d</color>
+    <color name="colorButtonBg">#4e515e</color>
+</resources>
