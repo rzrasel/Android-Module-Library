@@ -13,7 +13,7 @@ import java.util.Set;
 
 public class SharePrefPrivateHandler {
     private Context context;
-    public static String PREFS_NAME = "com.rz.bdlivetelevision";
+    private static String PREFS_NAME = "me.apphive";
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
     private MODE mode = MODE.PRIVATE;
@@ -105,7 +105,7 @@ public class SharePrefPrivateHandler {
         return mapKeyValueItems;
     }
 
-    public Map<String, ?> getAllKeyValuePrint() {
+    public Map<String, ?> printAllKeyValue() {
         sharedPreferences = context.getSharedPreferences(PREFS_NAME, mode.getModeValue());
         Map<String, ?> mapKeyValueItems = sharedPreferences.getAll();
 
