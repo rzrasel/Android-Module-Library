@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/developer/Desktop/SM Projects/SM Android Projects/TemplateOne/dynamicmodeladapter/src/main/assets"/><source path="/Users/developer/Desktop/SM Projects/SM Android Projects/TemplateOne/dynamicmodeladapter/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/developer/Desktop/SM Projects/SM Android Projects/TemplateOne/dynamicmodeladapter/src/debug/assets"/></dataSet></merger>
