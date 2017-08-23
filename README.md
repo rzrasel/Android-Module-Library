@@ -1,2 +1,2 @@
-# Android-Module-Library
-Android Module Library
+# Android-Library-Dynamic-Model-Adapter
+And Library Dynamic Model Adapter
