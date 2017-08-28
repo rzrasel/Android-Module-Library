@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-26.0.0-alpha1_674e788fc1e720edffaf726df13467e07a7665c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-26.0.0-alpha1_2253edf73b592266cd49a41ade595cedaf359d48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-26.0.0-alpha1_b6beaa5ecd93bc735d7f49dbb950c1a9b456f474/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-26.0.0-alpha1_298393a2070f71ac541d8962f2bdf625234a74c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_9e942c097dab48980e4bab5911f8f59102d68502/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-26.0.0-alpha1_6b22ece32e39de15c41d995545d445e60f595bca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-26.0.0-alpha1_2dd96b1e2100c0e36b32cce6d9555fb909bfad42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-26.0.0-alpha1_ec1a312d5ead4206240e34ff1cfb9242e0a0f386/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4342c8e7eeaffab979fc827acfedbd58d54fceb2">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_669f2df9e4dde10a54c9ab96e4664a3e86ae168c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-26.0.0-alpha1_1099dcae0b11f0779250c48077778c7712adc630/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-26.0.0-alpha1_7b311cf266e16176608cd7c039d51ee3a0ab69f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-26.0.0-alpha1_8c468a96143080adfcd86f79b130bb3871b22e54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-26.0.0-alpha1_4f1c7fdfb3530147a1f293143716c57c46162b05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-26.0.0-alpha1_fc9c77d01ba4320c1d457acc19eba0ec35d92fb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ce64d82916a89503b026b107dd19f32da409e4f7">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndroidSpinalNavDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_35f850cb5c2bd5e4fb00de7b2b17b66c38635bf0/classes.dex" />
+    </item>
+
+</items>
