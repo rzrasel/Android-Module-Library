@@ -76,10 +76,16 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 > Other Information
 > That I Have Need To Store
 
-* APP Project
+* APP Project Table
     * Project Id
     * Project Name
     * Project Status
-* APP API Key
-    - Foreign Key ***notes***
+* APP API Key Table
+    - Project Id ***Foreign Key (APP Project Table)***
+    - API Key Id
+    - Name
+    - API Key
+    - Key Type
+    - Usage Type ***Android, iOS***
+    - Status
 
