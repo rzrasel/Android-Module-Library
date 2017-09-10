@@ -48,3 +48,33 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 * APP Project
 * APP API Key
 
+> Other Information
+> That I Have Need To Store
+
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
+
+~~~
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+~~~
+
+1. A numbered list
+    1. A nested numbered list
+    2. Which is numbered
+2. Which is numbered
+
+~~~
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
+~~~
+
+- [ ] An uncompleted task
+- [x] A completed task
+
