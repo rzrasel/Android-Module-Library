@@ -108,6 +108,26 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 
 [How do I programatically extract a certificate from a site and add it to my keystore?](http://helpdesk.objects.com.au/java/how-do-i-programatically-extract-a-certificate-from-a-site-and-add-it-to-my-keystore)
 
+```password_encode_and_check
+function pw_encode($password)
+{
+   for ($i = 1; $i <= 10; $i++)
+       $seed .= substr('0123456789abcdef', rand(0,15), 1);
+   return sha1($seed.$password.$seed).$seed;
+}
+function pw_check($password, $stored_value)
+{
+   if (strlen($stored_value) != 50)
+      return FALSE;
+   $stored_seed = substr($stored_value,40,10);
+   if (sha1($stored_seed.$password.$stored_seed).$stored_seed == $stored_value)
+     return TRUE;
+   else
+     return FALSE;
+}
+echo pw_check("com.sm.cmdss", "ca564c8472c24d0b0f84baef685db9aa49e9df2ce131057fa5");
+```
+
 
 
 
