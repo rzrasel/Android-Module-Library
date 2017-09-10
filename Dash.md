@@ -5,6 +5,8 @@
     * Project Id
     * Project Name
     * Project Details
+    * Latest Version Code
+    * Latest Version Name
     * Valid Last Latest Version Code
     * Valid Last Latest Version Name
     * Project Status
