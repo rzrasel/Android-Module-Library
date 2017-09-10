@@ -127,6 +127,18 @@ function pw_check($password, $stored_value)
 }
 echo pw_check("com.sm.cmdss", "ca564c8472c24d0b0f84baef685db9aa49e9df2ce131057fa5");
 ```
+```password_encode_and_check
+function HashPassword($password)
+{
+    $seed = "abckasdjf";
+    mt_srand(microtime()*1000000);
+    //$salt = mhash_keygen_s2k(MHASH_SHA1, $password, substr(pack('h*', md5(mt_rand())), 0, 8), 4);
+    $salt = mhash_keygen_s2k(MHASH_SHA1, $password, substr(pack('h*', md5($seed)), 0, 8), 4);
+    $hash = base64_encode(mhash(MHASH_SHA1, $password.$salt).$salt);
+    return $hash;
+}
+echo HashPassword("com.sm.cmdss");
+```
 
 
 
