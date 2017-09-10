@@ -2,6 +2,8 @@
 Android Module Library
 
 - - - -
+https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+- - - -
 
 * Bullet list
     * Nested bullet
