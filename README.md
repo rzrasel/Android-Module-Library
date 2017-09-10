@@ -14,8 +14,8 @@ Android Module Library
 | tmeta_value | TEXT | 64 | ✓ |
 | tmeta_create_date | DATETIME |  | ✕ |
 | tmeta_modify_date | DATETIME |  | ✕ |
-| tmeta_created_by | BIGINT | 20 | ✕ |
-| tmeta_modified_by | BIGINT | 20 | ✕ |
+| tmeta_created_by | BIGINT | 20 | ✓ |
+| tmeta_modified_by | BIGINT | 20 | ✓ |
 
 
 * MySQL Table Create
