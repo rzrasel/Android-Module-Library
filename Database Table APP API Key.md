@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_key (
     taak_api_modified_by            BIGINT(20)      NULL,
     CONSTRAINT pk_app_api_key_taak_api_id PRIMARY KEY (taak_api_id),
     CONSTRAINT uk_app_api_key_taak_api_key UNIQUE KEY (taak_api_key),
-    CONSTRAINT fk_app_project_tap_project_id FOREIGN KEY (tap_project_id) REFERENCES prefix_tbl_app_project(tap_project_id)
+    CONSTRAINT fk_app_project_tap_project_id FOREIGN KEY (tap_project_id) REFERENCES prefix_tbl_app_api_project(tap_project_id)
 );
 ```
 
