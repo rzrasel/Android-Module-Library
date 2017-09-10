@@ -5,16 +5,18 @@
 
 | Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
-| reference_id | BIGINT | 20 | ✕ |
-| tmeta_id | BIGINT | 20 | ✕ |
-| tmeta_tbl_identity | VARCHAR | 64 | ✓ |
-| tmeta_key | VARCHAR | 255 | ✕ |
-| tmeta_value | TEXT |  | ✓ |
-| tmeta_create_date | DATETIME |  | ✕ |
-| tmeta_modify_date | DATETIME |  | ✕ |
-| tmeta_created_by | BIGINT | 20 | ✓ |
-| tmeta_modified_by | BIGINT | 20 | ✓ |
-
+| tap_project_id | BIGINT | 20 | ✕ |
+| tap_project_name | VARCHAR | 255 | ✕ |
+| tap_project_details | TEXT |  | ✓ |
+| tap_project_latest_ver_code | VARCHAR | 255 | ✕ |
+| tap_project_latest_ver_name | TEXT |  | ✓ |
+| tap_project_last_valid_ver_code | DATETIME |  | ✕ |
+| tap_project_last_valid_ver_name | DATETIME |  | ✕ |
+| tap_project_status | BIGINT | 20 | ✓ |
+| tap_project_create_date | BIGINT | 20 | ✓ |
+| tap_project_modify_date | BIGINT | 20 | ✓ |
+| tap_project_created_by | BIGINT | 20 | ✓ |
+| tap_project_modified_by | BIGINT | 20 | ✓ |
 
 * Drop Table
 
