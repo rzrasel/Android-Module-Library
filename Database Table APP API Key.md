@@ -6,18 +6,15 @@
 | Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
 | tap_project_id | BIGINT | 20 | ✕ |
-| tap_project_name | VARCHAR | 255 | ✕ |
-| tap_project_details | TEXT |  | ✓ |
-| tap_project_package_bundle | VARCHAR | 255 | ✕ |
-| tap_project_latest_ver_code | VARCHAR | 255 | ✕ |
-| tap_project_latest_ver_name | VARCHAR | 255 | ✕ |
-| tap_project_lowest_valid_code | VARCHAR | 255 | ✕ |
-| tap_project_lowest_valid_name | VARCHAR | 255 | ✕ |
-| tap_project_status | BOOLEAN |  | ✕ |
-| tap_project_create_date | DATETIME |  | ✕ |
-| tap_project_modify_date | DATETIME |  | ✕ |
-| tap_project_created_by | BIGINT | 20 | ✓ |
-| tap_project_modified_by | BIGINT | 20 | ✓ |
+| taak_api_id | BIGINT | 20 | ✕ |
+| taak_api_key | TEXT |  | ✕ |
+| taak_api_key_type | VARCHAR | 255 | ✓ |
+| taak_api_usage_type | VARCHAR | 255 | ✕ |
+| taak_api_status | BOOLEAN |  | ✕ |
+| taak_api_create_date | DATETIME |  | ✕ |
+| taak_api_modify_date | DATETIME |  | ✕ |
+| taak_api_created_by | BIGINT | 20 | ✓ |
+| taak_api_modified_by | BIGINT | 20 | ✓ |
 
 * Drop Table
 
@@ -30,19 +27,17 @@ DROP TABLE IF EXISTS prefix_tbl_app_api_key;
 ```create_table_app_api_key
 CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_key (
     tap_project_id                  BIGINT(20)      NOT NULL,
-    tap_project_name                VARCHAR(255)    NOT NULL,
-    tap_project_details             TEXT            NULL,
-    tap_project_package_bundle      VARCHAR(255)    NOT NULL,
-    tap_project_latest_ver_code     VARCHAR(255)    NOT NULL,
-    tap_project_latest_ver_name     VARCHAR(255)    NOT NULL,
-    tap_project_lowest_valid_code   VARCHAR(255)    NOT NULL,
-    tap_project_lowest_valid_name   VARCHAR(255)    NOT NULL,
-    tap_project_status              BOOLEAN         NOT NULL,
-    tap_project_create_date         DATETIME        NOT NULL,
-    tap_project_modify_date         DATETIME        NOT NULL,
-    tap_project_created_by          BIGINT(20)      NULL,
-    tap_project_modified_by         BIGINT(20)      NULL,
-    CONSTRAINT pk_app_project_tap_project_id PRIMARY KEY (tap_project_id)
+    taak_api_id                     BIGINT(20)      NOT NULL,
+    taak_api_key                    VARCHAR(255)    NOT NULL,
+    taak_api_key_type               VARCHAR(255)    NOT NULL    COMMENT "Debug Or Release Type",
+    taak_api_usage_type             VARCHAR(255)    NOT NULL    COMMENT "OS Type, Android, iOS, Windows Or Other",
+    taak_api_status                 BOOLEAN         NOT NULL,
+    taak_api_create_date            DATETIME        NOT NULL,
+    taak_api_modify_date            DATETIME        NOT NULL,
+    taak_api_created_by             BIGINT(20)      NULL,
+    taak_api_modified_by            BIGINT(20)      NULL,
+    CONSTRAINT pk_app_api_key_taak_api_id PRIMARY KEY (taak_api_id),
+    CONSTRAINT uk_app_api_key_taak_api_key UNIQUE KEY (taak_api_key)
 );
 ```
 
