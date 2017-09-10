@@ -8,7 +8,7 @@
 | tap_project_id | BIGINT | 20 | ✕ |
 | taak_api_id | BIGINT | 20 | ✕ |
 | taak_api_key | VARCHAR | 255 | ✕ |
-| taak_api_key_type | VARCHAR | 255 | ✓ |
+| taak_api_key_type | VARCHAR | 255 | ✕ |
 | taak_api_usage_type | VARCHAR | 255 | ✕ |
 | taak_api_status | BOOLEAN |  | ✕ |
 | taak_api_create_date | DATETIME |  | ✕ |
