@@ -39,3 +39,6 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     CONSTRAINT pk_metadata_tmeta_id PRIMARY KEY (tmeta_id)
 );
 ```
+
+> API key created
+> API key created
