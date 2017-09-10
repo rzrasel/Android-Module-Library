@@ -1,5 +1,5 @@
-### Database Table Metadata Design
-**Metadata table as follows**
+### Database Table "Metadata" Design
+**"Metadata" table as follows**
 
 * MySQL Table Name: prefix_tbl_metadata
 
