@@ -77,4 +77,5 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     * Project Name
     * Project Status
 * APP API Key
+    - Foreign Key
 
