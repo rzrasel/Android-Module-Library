@@ -5,19 +5,19 @@
 
 | Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
-| tap_project_id | BIGINT | 20 | ✕ |
-| tap_project_name | VARCHAR | 255 | ✕ |
-| tap_project_details | TEXT |  | ✓ |
-| tap_project_package_bundle | VARCHAR | 255 | ✕ |
-| tap_project_latest_ver_code | VARCHAR | 255 | ✕ |
-| tap_project_latest_ver_name | VARCHAR | 255 | ✕ |
-| tap_project_lowest_valid_code | VARCHAR | 255 | ✕ |
-| tap_project_lowest_valid_name | VARCHAR | 255 | ✕ |
-| tap_project_status | BOOLEAN |  | ✕ |
-| tap_project_create_date | DATETIME |  | ✕ |
-| tap_project_modify_date | DATETIME |  | ✕ |
-| tap_project_created_by | BIGINT | 20 | ✓ |
-| tap_project_modified_by | BIGINT | 20 | ✓ |
+| taap_project_id | BIGINT | 20 | ✕ |
+| taap_project_name | VARCHAR | 255 | ✕ |
+| taap_project_details | TEXT |  | ✓ |
+| taap_project_package_bundle | VARCHAR | 255 | ✕ |
+| taap_project_latest_ver_code | VARCHAR | 255 | ✕ |
+| taap_project_latest_ver_name | VARCHAR | 255 | ✕ |
+| taap_project_lowest_valid_code | VARCHAR | 255 | ✕ |
+| taap_project_lowest_valid_name | VARCHAR | 255 | ✕ |
+| taap_project_status | BOOLEAN |  | ✕ |
+| taap_project_create_date | DATETIME |  | ✕ |
+| taap_project_modify_date | DATETIME |  | ✕ |
+| taap_project_created_by | BIGINT | 20 | ✓ |
+| taap_project_modified_by | BIGINT | 20 | ✓ |
 
 * Drop Table
 
@@ -29,20 +29,20 @@ DROP TABLE IF EXISTS prefix_tbl_app_api_project;
 
 ```create_table_app_project
 CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
-    tap_project_id                  BIGINT(20)      NOT NULL,
-    tap_project_name                VARCHAR(255)    NOT NULL,
-    tap_project_details             TEXT            NULL,
-    tap_project_package_bundle      VARCHAR(255)    NOT NULL,
-    tap_project_latest_ver_code     VARCHAR(255)    NOT NULL,
-    tap_project_latest_ver_name     VARCHAR(255)    NOT NULL,
-    tap_project_lowest_valid_code   VARCHAR(255)    NOT NULL,
-    tap_project_lowest_valid_name   VARCHAR(255)    NOT NULL,
-    tap_project_status              BOOLEAN         NOT NULL,
-    tap_project_create_date         DATETIME        NOT NULL,
-    tap_project_modify_date         DATETIME        NOT NULL,
-    tap_project_created_by          BIGINT(20)      NULL,
-    tap_project_modified_by         BIGINT(20)      NULL,
-    CONSTRAINT pk_app_api_project_tap_project_id PRIMARY KEY (tap_project_id)
+    taap_project_id                 BIGINT(20)      NOT NULL,
+    taap_project_name               VARCHAR(255)    NOT NULL,
+    taap_project_details            TEXT            NULL,
+    taap_project_package_bundle     VARCHAR(255)    NOT NULL,
+    taap_project_latest_ver_code    VARCHAR(255)    NOT NULL,
+    taap_project_latest_ver_name    VARCHAR(255)    NOT NULL,
+    taap_project_lowest_valid_code  VARCHAR(255)    NOT NULL,
+    taap_project_lowest_valid_name  VARCHAR(255)    NOT NULL,
+    taap_project_status             BOOLEAN         NOT NULL,
+    taap_project_create_date        DATETIME        NOT NULL,
+    taap_project_modify_date        DATETIME        NOT NULL,
+    taap_project_created_by         BIGINT(20)      NULL,
+    taap_project_modified_by        BIGINT(20)      NULL,
+    CONSTRAINT pk_app_api_project_taap_project_id PRIMARY KEY (taap_project_id)
 );
 ```
 
