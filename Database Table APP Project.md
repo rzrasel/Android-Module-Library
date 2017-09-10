@@ -11,8 +11,8 @@
 | tap_project_package_bundle | VARCHAR | 255 | ✕ |
 | tap_project_latest_ver_code | VARCHAR | 255 | ✕ |
 | tap_project_latest_ver_name | VARCHAR | 255 | ✕ |
-| tap_project_last_valid_ver_code | VARCHAR | 255 | ✕ |
-| tap_project_last_valid_ver_name | VARCHAR | 255 | ✕ |
+| tap_project_lowest_valid_code | VARCHAR | 255 | ✕ |
+| tap_project_lowest_valid_name | VARCHAR | 255 | ✕ |
 | tap_project_status | BOOLEAN |  | ✕ |
 | tap_project_create_date | DATETIME |  | ✕ |
 | tap_project_modify_date | DATETIME |  | ✕ |
@@ -35,8 +35,8 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_project (
     tap_project_package_bundle      VARCHAR(255)    NOT NULL,
     tap_project_latest_ver_code     VARCHAR(255)    NOT NULL,
     tap_project_latest_ver_name     VARCHAR(255)    NOT NULL,
-    tap_project_last_valid_ver_code VARCHAR(255)    NOT NULL,
-    tap_project_last_valid_ver_name VARCHAR(255)    NOT NULL,
+    tap_project_lowest_valid_code   VARCHAR(255)    NOT NULL,
+    tap_project_lowest_valid_name   VARCHAR(255)    NOT NULL,
     tap_project_status              BOOLEAN         NOT NULL,
     tap_project_create_date         DATETIME        NOT NULL,
     tap_project_modify_date         DATETIME        NOT NULL,
