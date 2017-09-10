@@ -18,7 +18,13 @@ Android Module Library
 | tmeta_modified_by | BIGINT | 20 | ✓ |
 
 
-* MySQL Table Create
+* Drop Table
+
+```drop_metadata_table
+DROP TABLE IF EXISTS prefix_tbl_metadata;
+```
+
+* Create Table
 
 ```create_metadata_table
 CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
