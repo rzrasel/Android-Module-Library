@@ -5,15 +5,15 @@
 
 | Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
-| reference_id | BIGINT | 20 | ✕ |
-| tmeta_meta_id | BIGINT | 20 | ✕ |
-| tmeta_tbl_identity | VARCHAR | 64 | ✓ |
-| tmeta_key | VARCHAR | 255 | ✕ |
-| tmeta_value | TEXT |  | ✓ |
-| tmeta_create_date | DATETIME |  | ✕ |
-| tmeta_modify_date | DATETIME |  | ✕ |
-| tmeta_created_by | BIGINT | 20 | ✓ |
-| tmeta_modified_by | BIGINT | 20 | ✓ |
+| tm_meta_ref_id | BIGINT | 20 | ✕ |
+| tm_meta_id | BIGINT | 20 | ✕ |
+| tm_meta_identity | VARCHAR | 64 | ✓ |
+| tm_meta_key | VARCHAR | 255 | ✕ |
+| tm_meta_value | TEXT |  | ✓ |
+| tm_meta_create_date | DATETIME |  | ✕ |
+| tm_meta_modify_date | DATETIME |  | ✕ |
+| tm_meta_created_by | BIGINT | 20 | ✓ |
+| tm_meta_modified_by | BIGINT | 20 | ✓ |
 
 
 * Drop Table
@@ -26,16 +26,16 @@ DROP TABLE IF EXISTS prefix_tbl_metadata;
 
 ```create_table_metadata
 CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
-    reference_id            BIGINT(20)      NOT NULL,
-    tmeta_meta_id                BIGINT(20)      NOT NULL,
-    tmeta_tbl_identity      VARCHAR(64)     NULL,
-    tmeta_key               VARCHAR(255)    NOT NULL,
-    tmeta_value             TEXT            NULL,
-    tmeta_create_date       DATETIME        NOT NULL,
-    tmeta_modify_date       DATETIME        NOT NULL,
-    tmeta_created_by        BIGINT(20)      NULL,
-    tmeta_modified_by       BIGINT(20)      NULL,
-    CONSTRAINT pk_metadata_tmeta_meta_id PRIMARY KEY (tmeta_meta_id)
+    tm_meta_ref_id          BIGINT(20)      NOT NULL,
+    tm_meta_id              BIGINT(20)      NOT NULL,
+    tm_meta_identity        VARCHAR(64)     NULL,
+    tm_meta_key             VARCHAR(255)    NOT NULL,
+    tm_meta_value           TEXT            NULL,
+    tm_meta_create_date     DATETIME        NOT NULL,
+    tm_meta_modify_date     DATETIME        NOT NULL,
+    tm_meta_created_by      BIGINT(20)      NULL,
+    tm_meta_modified_by     BIGINT(20)      NULL,
+    CONSTRAINT pk_metadata_tm_meta_id PRIMARY KEY (tm_meta_id)
 );
 ```
 
