@@ -1,5 +1,5 @@
-### Database Table APP Project Design
-**APP Project table as follows**
+### Database Table "APP Project" Design
+**"APP Project" table as follows**
 
 * MySQL Table Name: prefix_tbl_app_project
 
@@ -21,7 +21,7 @@
 
 * Drop Table
 
-```drop_table_metadata
+```drop_table_app_project
 DROP TABLE IF EXISTS prefix_tbl_app_project;
 ```
 
