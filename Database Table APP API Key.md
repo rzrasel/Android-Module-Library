@@ -1,7 +1,7 @@
-### Database Table APP Project Design
-**APP Project table as follows**
+### Database Table "APP API Key" Design
+**"APP API Key" table as follows**
 
-* MySQL Table Name: prefix_tbl_app_project
+* MySQL Table Name: prefix_tbl_app_api_key
 
 | Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
@@ -11,8 +11,8 @@
 | tap_project_package_bundle | VARCHAR | 255 | ✕ |
 | tap_project_latest_ver_code | VARCHAR | 255 | ✕ |
 | tap_project_latest_ver_name | VARCHAR | 255 | ✕ |
-| tap_project_last_valid_ver_code | VARCHAR | 255 | ✕ |
-| tap_project_last_valid_ver_name | VARCHAR | 255 | ✕ |
+| tap_project_lowest_valid_code | VARCHAR | 255 | ✕ |
+| tap_project_lowest_valid_name | VARCHAR | 255 | ✕ |
 | tap_project_status | BOOLEAN |  | ✕ |
 | tap_project_create_date | DATETIME |  | ✕ |
 | tap_project_modify_date | DATETIME |  | ✕ |
@@ -21,22 +21,22 @@
 
 * Drop Table
 
-```drop_table_metadata
-DROP TABLE IF EXISTS prefix_tbl_app_project;
+```drop_table_app_api_key
+DROP TABLE IF EXISTS prefix_tbl_app_api_key;
 ```
 
 * Create Table
 
-```create_table_app_project
-CREATE TABLE IF NOT EXISTS prefix_tbl_app_project (
+```create_table_app_api_key
+CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_key (
     tap_project_id                  BIGINT(20)      NOT NULL,
     tap_project_name                VARCHAR(255)    NOT NULL,
     tap_project_details             TEXT            NULL,
     tap_project_package_bundle      VARCHAR(255)    NOT NULL,
     tap_project_latest_ver_code     VARCHAR(255)    NOT NULL,
     tap_project_latest_ver_name     VARCHAR(255)    NOT NULL,
-    tap_project_last_valid_ver_code VARCHAR(255)    NOT NULL,
-    tap_project_last_valid_ver_name VARCHAR(255)    NOT NULL,
+    tap_project_lowest_valid_code   VARCHAR(255)    NOT NULL,
+    tap_project_lowest_valid_name   VARCHAR(255)    NOT NULL,
     tap_project_status              BOOLEAN         NOT NULL,
     tap_project_create_date         DATETIME        NOT NULL,
     tap_project_modify_date         DATETIME        NOT NULL,
