@@ -1,4 +1,3 @@
-
 ### Database Table Metadata Design
 **Metadata table as follows**
 
