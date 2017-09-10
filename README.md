@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 );
 ```
 
-###Other Info
+### Other Info
 
 > Other Information
 > That I Have Need To Store
