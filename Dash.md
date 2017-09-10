@@ -16,6 +16,7 @@
     - Project Id ***Foreign Key (APP Project Table)***
     - API Key Id
     - Name
+    - Package name
     - API Key
     - Key Type ***Release Or Debug Key***
     - Usage Type ***Android, iOS***
