@@ -1,5 +1,5 @@
 
-### Database Metadata Table Design
+### Database Table Metadata Design
 **Metadata table as follows**
 
 * MySQL Table Name: prefix_tbl_metadata
@@ -19,13 +19,13 @@
 
 * Drop Table
 
-```drop_metadata_table
+```drop_table_metadata
 DROP TABLE IF EXISTS prefix_tbl_metadata;
 ```
 
 * Create Table
 
-```create_metadata_table
+```create_table_metadata
 CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     reference_id            BIGINT(20)      NOT NULL,
     tmeta_id                BIGINT(20)      NOT NULL,
