@@ -6,7 +6,7 @@
 | Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
 | reference_id | BIGINT | 20 | ✕ |
-| tmeta_id | BIGINT | 20 | ✕ |
+| tmeta_meta_id | BIGINT | 20 | ✕ |
 | tmeta_tbl_identity | VARCHAR | 64 | ✓ |
 | tmeta_key | VARCHAR | 255 | ✕ |
 | tmeta_value | TEXT |  | ✓ |
@@ -27,7 +27,7 @@ DROP TABLE IF EXISTS prefix_tbl_metadata;
 ```create_table_metadata
 CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     reference_id            BIGINT(20)      NOT NULL,
-    tmeta_id                BIGINT(20)      NOT NULL,
+    tmeta_meta_id                BIGINT(20)      NOT NULL,
     tmeta_tbl_identity      VARCHAR(64)     NULL,
     tmeta_key               VARCHAR(255)    NOT NULL,
     tmeta_value             TEXT            NULL,
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     tmeta_modify_date       DATETIME        NOT NULL,
     tmeta_created_by        BIGINT(20)      NULL,
     tmeta_modified_by       BIGINT(20)      NULL,
-    CONSTRAINT pk_metadata_tmeta_id PRIMARY KEY (tmeta_id)
+    CONSTRAINT pk_metadata_tmeta_meta_id PRIMARY KEY (tmeta_meta_id)
 );
 ```
 
