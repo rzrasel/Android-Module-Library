@@ -128,6 +128,7 @@ function pw_check($password, $stored_value)
 echo pw_check("com.sm.cmdss", "ca564c8472c24d0b0f84baef685db9aa49e9df2ce131057fa5");
 ```
 ```password_encode_and_check
+```password_encode_and_check
 function HashPassword($password)
 {
     $seed = "abckasdjf";
@@ -138,6 +139,20 @@ function HashPassword($password)
     return $hash;
 }
 echo HashPassword("com.sm.cmdss");
+```
+```password_encode_and_check
+function ValidatePassword($password, $hash)
+{
+    $hash = base64_decode(substr($hash, 6));
+    $original_hash = substr($hash, 0, 20);
+    $salt = substr($hash, 20);
+    $new_hash = mhash(MHASH_SHA1, $password . $salt);
+    if (strcmp($original_hash, $new_hash) == 0)
+        echo "... do something because your password is valid ...";
+    else
+        echo 'Unauthorized: Authorization has been refused for the credentials you provided. Please login with a valid username and password.';
+}
+ValidatePassword("l2LVkQJXx2867wjE1aST+HN50DaxAVMd", "abckasdjf");
 ```
 
 
