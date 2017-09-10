@@ -8,14 +8,14 @@
 | tap_project_id | BIGINT | 20 | ✕ |
 | tap_project_name | VARCHAR | 255 | ✕ |
 | tap_project_details | TEXT |  | ✓ |
-| tap_project_package_bundle | TEXT |  | ✓ |
+| tap_project_package_bundle | TEXT |  | ✕ |
 | tap_project_latest_ver_code | VARCHAR | 255 | ✕ |
-| tap_project_latest_ver_name | VARCHAR | 255 | ✓ |
+| tap_project_latest_ver_name | VARCHAR | 255 | ✕ |
 | tap_project_last_valid_ver_code | VARCHAR | 255 | ✕ |
 | tap_project_last_valid_ver_name | VARCHAR | 255 | ✕ |
-| tap_project_status | BOOLEAN |  | ✓ |
-| tap_project_create_date | DATETIME |  | ✓ |
-| tap_project_modify_date | DATETIME |  | ✓ |
+| tap_project_status | BOOLEAN |  | ✕ |
+| tap_project_create_date | DATETIME |  | ✕ |
+| tap_project_modify_date | DATETIME |  | ✕ |
 | tap_project_created_by | BIGINT | 20 | ✓ |
 | tap_project_modified_by | BIGINT | 20 | ✓ |
 
