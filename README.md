@@ -41,4 +41,5 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 ```
 
 > API key created
+
 > API key created
