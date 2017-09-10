@@ -89,7 +89,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     - API Key Id
     - Name
     - API Key
-    - Key Type
+    - Key Type ***Release Or Debug Key***
     - Usage Type ***Android, iOS***
     - Status
     - Create Date
