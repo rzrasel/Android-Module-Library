@@ -7,7 +7,7 @@
 | ------ | ------ | ------ | ------ |
 | tap_project_id | BIGINT | 20 | ✕ |
 | taak_api_id | BIGINT | 20 | ✕ |
-| taak_api_key | VARCHAR | 255 | ✕ |
+| taak_api_auth_key | VARCHAR | 255 | ✕ |
 | taak_api_key_type | VARCHAR | 255 | ✕ |
 | taak_api_usage_type | VARCHAR | 255 | ✕ |
 | taak_api_status | BOOLEAN |  | ✕ |
@@ -28,7 +28,7 @@ DROP TABLE IF EXISTS prefix_tbl_app_api_key;
 CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_key (
     tap_project_id                  BIGINT(20)      NOT NULL,
     taak_api_id                     BIGINT(20)      NOT NULL,
-    taak_api_key                    VARCHAR(255)    NOT NULL,
+    taak_api_auth_key               VARCHAR(255)    NOT NULL,
     taak_api_key_type               VARCHAR(255)    NOT NULL    COMMENT "Debug Or Release Type",
     taak_api_usage_type             VARCHAR(255)    NOT NULL    COMMENT "OS Type, Android, iOS, Windows Or Other",
     taak_api_status                 BOOLEAN         NOT NULL,
