@@ -1,6 +1,8 @@
 # Android-Module-Library
 Android Module Library
 
+- - - -
+
 * Bullet list
     * Nested bullet
         * Sub-nested bullet etc
@@ -66,6 +68,8 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     CONSTRAINT pk_metadata_tmeta_id PRIMARY KEY (tmeta_id)
 );
 ```
+
+- - - -
 
 ### Other Info
 
