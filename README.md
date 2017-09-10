@@ -97,3 +97,10 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     - Created By
     - Modified By
 
+
+####Java Sample Code for Calculating HMAC-SHA1 Signatures
+[Java Sample Code for Calculating HMAC-SHA1 Signatures](https://gist.github.com/ishikawa/88599)
+[Java Sample Code for Calculating HMAC-SHA1 Signatures](https://stackoverflow.com/questions/13119641/java-programmatically-read-informations-from-a-key-certificate)
+
+
+
