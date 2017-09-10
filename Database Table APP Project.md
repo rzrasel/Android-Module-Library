@@ -1,7 +1,7 @@
-### Database Table "APP Project" Design
-**"APP Project" table as follows**
+### Database Table "APP API Project" Design
+**"APP API Project" table as follows**
 
-* MySQL Table Name: prefix_tbl_app_project
+* MySQL Table Name: prefix_tbl_app_api_project
 
 | Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
@@ -21,14 +21,14 @@
 
 * Drop Table
 
-```drop_table_app_project
-DROP TABLE IF EXISTS prefix_tbl_app_project;
+```drop_table_app_api_project
+DROP TABLE IF EXISTS prefix_tbl_app_api_project;
 ```
 
 * Create Table
 
 ```create_table_app_project
-CREATE TABLE IF NOT EXISTS prefix_tbl_app_project (
+CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
     tap_project_id                  BIGINT(20)      NOT NULL,
     tap_project_name                VARCHAR(255)    NOT NULL,
     tap_project_details             TEXT            NULL,
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_project (
     tap_project_modify_date         DATETIME        NOT NULL,
     tap_project_created_by          BIGINT(20)      NULL,
     tap_project_modified_by         BIGINT(20)      NULL,
-    CONSTRAINT pk_app_project_tap_project_id PRIMARY KEY (tap_project_id)
+    CONSTRAINT pk_app_api_project_tap_project_id PRIMARY KEY (tap_project_id)
 );
 ```
 
