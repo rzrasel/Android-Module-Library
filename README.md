@@ -80,6 +80,10 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     * Project Id
     * Project Name
     * Project Status
+    - Create Date
+    - Modify Date
+    - Created By
+    - Modified By
 * APP API Key Table
     - Project Id ***Foreign Key (APP Project Table)***
     - API Key Id
@@ -88,4 +92,8 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
     - Key Type
     - Usage Type ***Android, iOS***
     - Status
+    - Create Date
+    - Modify Date
+    - Created By
+    - Modified By
 
