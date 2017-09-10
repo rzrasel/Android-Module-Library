@@ -40,5 +40,11 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 );
 ```
 
-> Project created; > API key created
+###Other Info
+
+> Other Information
+> That I Have Need To Store
+
+* APP Project
+* APP API Key
 
