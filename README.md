@@ -152,7 +152,8 @@ function ValidatePassword($password, $hash)
     else
         echo 'Unauthorized: Authorization has been refused for the credentials you provided. Please login with a valid username and password.';
 }
-ValidatePassword("l2LVkQJXx2867wjE1aST+HN50DaxAVMd", "abckasdjf");
+ValidatePassword("com.sm.cmdss", "l2LVkQJXx2867wjE1aST+HN50DaxAVMd");
+ValidatePassword("com.sm.cmdss", "b1zPr8y2h4Dwzjmfj5wSYqQ7JsUZdGQf");
 ```
 
 
