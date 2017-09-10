@@ -73,5 +73,8 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 > That I Have Need To Store
 
 * APP Project
+    * Project Id
+    * Project Name
+    * Project Status
 * APP API Key
 
