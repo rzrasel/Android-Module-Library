@@ -6,12 +6,17 @@ Android Module Library
 
 * MySQL Table Name: prefix_tbl_metadata
 
-| Column Name | Data Type | Size | Is Null |
+| Column Name | Data Type | Length | Is Null |
 | ------ | ------ | ------ | ------ |
 | tmeta_id | BIGINT | 20 | ✕ |
 | tmeta_tbl_identity | VARCHAR | 64 | ✓ |
-| tmeta_key | VARCHAR | 64 | ✕ |
-| tmeta_value | LONGTEXT | 64 | ✓ |
+| tmeta_key | VARCHAR | 255 | ✕ |
+| tmeta_value | TEXT | 64 | ✓ |
+| tmeta_create_date | DATETIME |  | ✕ |
+| tmeta_modify_date | DATETIME |  | ✕ |
+| tmeta_created_by | BIGINT | 20 | ✕ |
+| tmeta_modified_by | BIGINT | 20 | ✕ |
+
 
 * MySQL Table Create
 
