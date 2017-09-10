@@ -8,7 +8,7 @@
 | tap_project_id | BIGINT | 20 | ✕ |
 | tap_project_name | VARCHAR | 255 | ✕ |
 | tap_project_details | TEXT |  | ✓ |
-| tap_project_package_bundle | VARCHAR |  | ✕ |
+| tap_project_package_bundle | VARCHAR | 255 | ✕ |
 | tap_project_latest_ver_code | VARCHAR | 255 | ✕ |
 | tap_project_latest_ver_name | VARCHAR | 255 | ✕ |
 | tap_project_last_valid_ver_code | VARCHAR | 255 | ✕ |
