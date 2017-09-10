@@ -1,7 +1,7 @@
 - [ ] An uncompleted task
 - [x] A completed task
 
-* APP Project Table
+* APP Project Credentials Table
     * Project Id
     * Project Name
     * Project Details
@@ -18,7 +18,7 @@
     - Project Id ***Foreign Key (APP Project Table)***
     - API Key Id
     - Name
-    - Package name
+    - Package Name Bundle Identifiers
     - API Key
     - Key Type ***Release Or Debug Key***
     - Usage Type ***Android, iOS***
