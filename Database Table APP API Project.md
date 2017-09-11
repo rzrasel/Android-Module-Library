@@ -54,5 +54,12 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
 | taap_project_id | id | tbl_app_api_project | admob_interstitial_repeat_millis | 1000 * 60 * rand(4, 7) |
 | taap_project_id | id | tbl_app_api_project | admob_interstitial_status | BOOLEAN |
 | taap_project_id | id | tbl_app_api_project | admob_banner_status | BOOLEAN |
+| taap_project_id | id | tbl_app_api_project | url_read_date_time | DATETIEM |
+| taap_project_id | id | tbl_app_api_project | url_read_repeat_minutes | MINUTES |
+
+```code_php_add_minutes
+$date = strtotime('+59 minutes', strtotime(date('Y-m-d H:i:s')));
+echo date('Y-m-d H:i:s', strtotime('+59 minutes', strtotime(date('Y-m-d H:i:s'))));
+```
 
 [Rz Rasel]
