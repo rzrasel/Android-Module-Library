@@ -46,4 +46,13 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
 );
 ```
 
+### APP Project Metadata Property
+
+| Reference ID | Meta ID | Meta Identity | Key | Value |
+| ------ | ------ | ------ | ------ | ------ |
+| taap_project_id | id | tbl_app_api_project | app_update_msg | Your application must need to update for use.\n\nWe are always try to sarve you. Please stay with us |
+| taap_project_id | id | tbl_app_api_project | admob_interstitial_repeat_millis | 1000 * 60 * rand(4, 7) |
+| taap_project_id | id | tbl_app_api_project | admob_interstitial_status | BOOLEAN |
+| taap_project_id | id | tbl_app_api_project | admob_banner_status | BOOLEAN |
+
 [Rz Rasel]
