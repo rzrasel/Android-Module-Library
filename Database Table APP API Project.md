@@ -62,8 +62,9 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
 | taap_project_id | id | tbl_app_api_project | {window_name}_tab_items_ctrl | JSON _(Key Value Pair, Key Make By Item Name & Value Is BOOLEAN)_ |
 
 ### Database JSON Return Format
-|-app_data - _status, message_
-|--app_info - _version, version update message_
+* root ⇥ _status, message_
+    * app_data ⇥ _version, version update message_
+    * app_info
 
 ### PHP Code ***Add Minutes***
 ```code_php_add_minutes
