@@ -66,6 +66,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
     * app_data ⇥ _JSON OBJECT_
         * app_info ⇥ _version, version update message_
         - admob_info
+        * app_instruction
 
 ### PHP Code ***Add Minutes***
 ```code_php_add_minutes
