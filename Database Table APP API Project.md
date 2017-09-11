@@ -57,7 +57,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
 | taap_project_id | id | tbl_app_api_project | url_read_date_time | DATETIEM |
 | taap_project_id | id | tbl_app_api_project | url_read_repeat_minutes | MINUTES |
 
-***PHP Code Add Minutes***
+### PHP Code ***Add Minutes***
 ```code_php_add_minutes
 $date = strtotime('+59 minutes', strtotime(date('Y-m-d H:i:s')));
 echo date('Y-m-d H:i:s', strtotime('+59 minutes', strtotime(date('Y-m-d H:i:s'))));
