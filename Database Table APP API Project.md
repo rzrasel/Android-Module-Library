@@ -56,6 +56,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
 | taap_project_id | id | tbl_app_api_project | admob_banner_status | BOOLEAN |
 | taap_project_id | id | tbl_app_api_project | url_read_date_time | DATETIEM |
 | taap_project_id | id | tbl_app_api_project | url_read_repeat_minutes | MINUTES |
+| taap_project_id | id | tbl_app_api_project | dash_nav_drawer_items_ctrl | JSON ****(Key Value Pair, Key Make By Item Name & Value Is BOOLEAN)**** |
 
 ### PHP Code ***Add Minutes***
 ```code_php_add_minutes
