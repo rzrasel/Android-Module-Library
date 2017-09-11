@@ -39,4 +39,10 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_metadata (
 );
 ```
 
+### Metadata Property
+
+| Reference ID | Meta ID | Meta Identity | Key | Value |
+| ------ | ------ | ------ | ------ | ------ |
+| taap_project_id | id | tbl_app_api_project | app_update_msg | Your application must need to update for use.\n\nWe are always try to sarve you. Please stay with us |
+
 [Rz Rasel]
