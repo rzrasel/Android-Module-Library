@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_app_api_project (
 | taap_project_id | id | tbl_app_api_project | dash_tab_items_ctrl | JSON _(Key Value Pair, Key Make By Item Name & Value Is BOOLEAN)_ |
 | taap_project_id | id | tbl_app_api_project | {activity_name}_nav_drawer_items_ctrl | JSON _(Key Value Pair, Key Make By Item Name & Value Is BOOLEAN)_ |
 | taap_project_id | id | tbl_app_api_project | {activity_name}_tab_items_ctrl | JSON _(Key Value Pair, Key Make By Item Name & Value Is BOOLEAN)_ |
-| taap_project_id | id | tbl_app_api_project | app_instruction | JSON ARRAY_(Not Key Value Pair, Only Value Text Or HTML Text)_ |
+| taap_project_id | id | tbl_app_api_project | app_instruction | JSON ARRAY _(Not Key Value Pair, Only Value Text Or HTML Text)_ |
 
 ### Database JSON Return Format
 * root ⇥ _status, message_
