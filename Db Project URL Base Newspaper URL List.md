@@ -37,8 +37,10 @@ CREATE TABLE IF NOT EXISTS prefix_tbl_urlbasenewppr_list (
     tubnpi_np_info_id               BIGINT(20)      UNSIGNED NOT NULL,
     tubnpl_np_list_id               BIGINT(20)      UNSIGNED NOT NULL,
     tubnpl_np_list_name             TEXT            NOT NULL COLLATE utf8_unicode_ci,
-    tubnpl_np_list_url              TEXT            NULL COLLATE utf8_unicode_ci,
-
+    tubnpl_np_list_url              TEXT            NOT NULL COLLATE utf8_unicode_ci,
+    tubnpl_np_list_order            BIGINT(20)      UNSIGNED NOT NULL,
+    tubnpl_np_list_status           BOOLEAN         NOT NULL,
+    tubnpl_np_list_show_pub         BOOLEAN         NOT NULL     COMMENT "Is Show At APP Published Time",
     tubnpl_np_list_create_date      DATETIME        NOT NULL,
     tubnpl_np_list_modify_date      DATETIME        NOT NULL,
     tubnpl_np_list_created_by       BIGINT(20)      UNSIGNED NULL,
