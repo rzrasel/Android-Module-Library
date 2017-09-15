@@ -24,14 +24,6 @@ DROP TABLE IF EXISTS prefix_tbl_urlbasenewppr_list;
 
 * Create Table
 
-
-    
-    id
-    page tab name
-    url
-
-
-
 ```create_table_urlbasenewppr_list
 CREATE TABLE IF NOT EXISTS prefix_tbl_urlbasenewppr_list (
     tubnpi_np_info_id               BIGINT(20)      UNSIGNED NOT NULL,
