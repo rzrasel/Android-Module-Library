@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-26.0.0-alpha1_c7e727c3fb5a5ac288cc5eee8303660b1db27093/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-26.0.0-alpha1_ed8dead2850a116c166f5fc433e05962ce4d65bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_9e942c097dab48980e4bab5911f8f59102d68502/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="020459b37022dfa11eddbb2de30d896c846ccfb4">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f9ca1feaf1b01dc3b7eac2f2fbf1cb5fb16655ad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-26.0.0-alpha1_5ee8b4542136219fef220854244d020dd4e6fee7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-26.0.0-alpha1_eb66479c1395a5514e19bd1405168c2cfc7be6fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-26.0.0-alpha1_73cea5b31cd6157f2c2bc82adefb30faf1287828/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-26.0.0-alpha1_3e1c05fd52a1c393125aa1a7a47d26d3c3712b7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-26.0.0-alpha1_65bd51f5f088f4299b0d50bb6d0f72f674d99d57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b7924e244a6863076cdea3d2648c0e5561745017">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6a96ce11b26ac9f33bdb3ff300347c01144d4bf2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-26.0.0-alpha1_42814718ba217b2b5007809bc88f32403ef92bac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/developer/Desktop/SM Projects/SM Android Projects/AndLibraryAppUpdate/usagesexample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-26.0.0-alpha1_31169e13e602f47b187a1238bdc81c969d019688/classes.dex" />
+    </item>
+
+</items>
